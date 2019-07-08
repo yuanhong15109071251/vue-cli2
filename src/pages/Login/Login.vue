@@ -12,11 +12,11 @@
         <form>
           <div class="on">
             <section class="login_message">
-              <input type="tel" maxlength="11" placeholder="手机号" />
+              <input type="tel" maxlength="11" placeholder="手机号">
               <button disabled="disabled" class="get_verification">获取验证码</button>
             </section>
             <section class="login_verification">
-              <input type="tel" maxlength="8" placeholder="验证码" />
+              <input type="tel" maxlength="8" placeholder="验证码">
             </section>
             <section class="login_hint">
               温馨提示：未注册硅谷外卖帐号的手机号，登录时将自动注册，且代表已同意
@@ -26,18 +26,18 @@
           <div>
             <section>
               <section class="login_message">
-                <input type="tel" maxlength="11" placeholder="手机/邮箱/用户名" />
+                <input type="tel" maxlength="11" placeholder="手机/邮箱/用户名">
               </section>
               <section class="login_verification">
-                <input type="tel" maxlength="8" placeholder="密码" />
+                <input type="tel" maxlength="8" placeholder="密码">
                 <div class="switch_button off">
                   <div class="switch_circle"></div>
                   <span class="switch_text">...</span>
                 </div>
               </section>
               <section class="login_message">
-                <input type="text" maxlength="11" placeholder="验证码" />
-                <img class="get_verification" src="./images/captcha.svg" alt="captcha" />
+                <input type="text" maxlength="11" placeholder="验证码">
+                <img class="get_verification" src="./images/captcha.svg" alt="captcha">
               </section>
             </section>
           </div>
@@ -45,17 +45,21 @@
         </form>
         <a href="javascript:;" class="about_us">关于我们</a>
       </div>
-      <a href="javascript:" class="go_back" @click="$router.back('/profile')">
+      <a href="javascript:" class="go_back" @click="$router.back()">
         <i class="iconfont icon-jiantou2"></i>
       </a>
     </div>
   </section>
 </template>
-<script>
-export default {};
+
+<script type="text/ecmascript-6">
+  export default {
+  }
 </script>
+
 <style lang="stylus" rel="stylesheet/stylus" scoped>
-  @import '../../common/stylus/mixins.styl';
+  @import '../../common/stylus/mixins.styl'
+
   .loginContainer
     width 100%
     height 100%

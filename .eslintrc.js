@@ -38,6 +38,13 @@ module.exports = {
     'no-multiple-empty-lines':'off',
     'no-tabs':'off',
     'no-unused-vars':'off',
-    'func-call-spacing':'off'
+    'func-call-spacing':'off',
+    'space-infix-ops':'off',
+    'padded-blocks':'off',
+    'no-multi-spaces':'off',
+    'padded-blocks':'off',
+    'block-spacing':'off',
+    'no-new':'off',
+    'keyword-spacing':'off'
   }
 }
